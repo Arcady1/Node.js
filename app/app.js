@@ -1,9 +1,10 @@
 const mysql = require('mysql');
 const config = require('./config.json');
+const SQL_ = 'SELECT * FROM names;';
 
-queryToDB();
+queryToDB(config, SQL_);
 
-function queryToDB() {
+function queryToDB(config, SQL_) {
     let connection = {};
 
     const prom = new Promise((resolve, reject) => {
@@ -18,8 +19,6 @@ function queryToDB() {
                         reject(err);
                     else {
                         console.log('Success connection!');
-
-                        const SQL_ = 'SELECT * FROM names;'
                         resolve(SQL_);
                     }
                 });
