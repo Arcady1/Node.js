@@ -4,10 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "csv-writer": "^1.6.0",
-    "express": "^4.17.1",
-    "mysql": "github:mysqljs/mysql"
+    "jquery": "^3.6.0"
   },
   "devDependencies": {},
   "scripts": {
