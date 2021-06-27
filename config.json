@@ -1,7 +1,0 @@
-{
-    "user": "root",
-    "password": "qazwsx",
-    "port": 3306,
-    "host": "localhost",
-    "database": "test"
-}
