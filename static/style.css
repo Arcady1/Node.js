@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ========================= */
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.active {
+    color: red;
+}
+
+.button {
+    display: block;
+    width: auto;
+    max-width: 350px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #aaa;
+}
+
+.db-data__strings {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #bbb;
+    color: #000;
+}
+
+.db-correct-buttons {
+    display: flex;
+}
+
+.dataStrWrapper:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
